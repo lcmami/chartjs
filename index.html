@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chart.js 進階圖表展示</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Chart.js 進階圖表展示</h1>
+    <p>折線圖、多重資料集、混合圖表、Options 設定</p>
+      </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>1. 基本折線圖</h2>
+      <p>展示每月網站流量變化。</p>
+      <canvas id="lineChart"></canvas>
+    </section>
+
+    <section class="card">
+      <h2>2. 多重資料集折線圖</h2>
+      <p>比較兩個班級的成績變化。</p>
+      <canvas id="multiLineChart"></canvas>
+    </section>
+
+    <section class="card">
+      <h2>3. 混合圖表</h2>
+      <p>長條圖顯示銷售量，折線圖顯示成長率。</p>
+      <canvas id="mixedChart"></canvas>
+    </section>
+
+    <section class="card">
+      <h2>4. Options 設定說明</h2>
+      <p>
+        本頁示範 title、legend、tooltip、interaction、responsive、scales、tension 等設定。
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>使用 Chart.js 製作的靜態網頁</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
